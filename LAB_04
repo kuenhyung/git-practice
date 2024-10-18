@@ -1,0 +1,42 @@
+# Lab 04
+
+## Overview
+- **Linux**: An open-source Unix-like operating system released by Linus Torvalds in 1991.
+- **Kernel**: The core of the OS that controls and communicates with hardware resources.
+- **Shell**: An interface that allows users to communicate with the kernel (e.g., bash, zsh).
+
+## CLI (Command Line Interface) vs. GUI (Graphical User Interface)
+
+| Aspect               | CLI                          | GUI                          |
+|----------------------|------------------------------|------------------------------|
+| **Usage**            | Requires memorization of commands | Easier and more intuitive     |
+| **Input Method**     | Primarily keyboard-based      | Mostly mouse with some keyboard shortcuts |
+| **Speed**            | Faster                        | Slower                       |
+| **Automation**       | Supports scripting for automation | Manual labor for repetitive tasks |
+| **Target Users**     | Suited for developers         | Suited for daily users       |
+
+## Key Shell Commands
+
+- **`ls`**: Outputs a list of files and folders in the current directory.
+- **`cd <directory_name>`**: Changes the current directory to the specified one.
+- **`mkdir <directory_name>`**: Creates a new directory.
+- **`rm <file_name>`**: Deletes a specified file or directory.
+- **`cp <source> <destination>`**: Copies a file or directory.
+- **`mv <source> <destination>`**: Moves or renames a file or directory.
+- **`pwd`**: Outputs the path to the current directory.
+
+### Command Options Examples
+- **`ls -l`**: Lists files in long format.
+- **`ls -lh`**: Lists files in long format with human-readable sizes.
+- **`cp -i <file1> <file2>`**: Prompts before overwriting if the destination file exists.
+
+## Characteristics of Linux
+- A powerful open-source operating system widely used on servers.
+- Various distributions available such as Ubuntu, Fedora, Debian, etc.
+- Primarily operates through CLI but also supports GUI.
+
+## Summary
+- Linux is a robust open-source OS, where CLI offers speed and efficiency but requires command memorization, while GUI provides ease of use but can be slower.
+- Various shell commands enable effective file management and system control.
+
+Keep this note handy for quick reference!
